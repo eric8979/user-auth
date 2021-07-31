@@ -39,11 +39,3 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, console.log(`Server running on port 3000`));
-// session is on the server side - secure then cookies
-// 1.16.31
-
-// THE PROCESS
-
-// cookie sets value of session id
-// express-session middleware gets the session id and look up for it
-// if session valid -> ex) authenticate user
