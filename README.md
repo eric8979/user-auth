@@ -1,5 +1,7 @@
 # User Auth
 
+User Authentication with passport.js, node, express - web app
+
 ## Session
 
 session vs cookie vs local storage
